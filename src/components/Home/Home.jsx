@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 class Home extends Component {
   render() {
     return (
-      <div class="container" id="landing-bkgd">
-        <img id="landing-icon" src="img/medium-bluetree-icon_lit_crosshatch.png" alt="brand-icon"/>
+      <div className="container" id="landing-bkgd">
+        <img id="landing-icon" src="#" alt="brand-icon"/>
         <header>
           <h1>Maegan Womble</h1>
           <p>UX/UI Web Developer</p>
