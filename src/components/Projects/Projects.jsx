@@ -11,7 +11,7 @@ class Projects extends Component {
             <div class="row">
               <h1 class="project-title">Gamma Photo App Website</h1>
               <div class="col-md-12 col-lg-6 padding-bottom project-unit">
-                <img class="project-icon" src="img-projects/gamma-1.png" alt="Gamma-Photo-App"/>
+                <img class="project-icon" src="../../img/img-projects/gamma-1.png" alt="Gamma-Photo-App"/>
               </div>
               <div class="col-md-12 col-lg-6 padding-left project-unit">
                 <p>A responsive web design built for a fictional photo app utilizing the Bootstrap framework. Completed as an assignment for Eduonix's Projects in JavaScript and jQuery Online Course.</p>
@@ -29,13 +29,13 @@ class Projects extends Component {
                 <a type="button" href="https://maeganw.github.io/JS-Color-Game-App/ColorGame.html" class="btn btn-primary sharp see" target="_blank"><i class="fa fa-eye fa-lg" aria-hidden="true"></i> See the App</a>
               </div>
               <div class="col-md-12 col-lg-6 padding-left project-unit">
-                <img class="project-icon" src="img-projects/colorgame-2.png" alt="Pomodoro-timer"/>
+                <img class="project-icon" src="../../img/img-projects/colorgame-2.png" alt="Pomodoro-timer"/>
               </div>
             </div>
             <div class="row">
               <h1 class="project-title">Pomodoro Timer</h1>
               <div class="col-md-12 col-lg-6 padding-bottom project-unit">
-                <img class="project-icon" src="img-projects/pomodoro-1.png" alt="Pomodoro-timer"/>
+                <img class="project-icon" src="../../img/img-projects/pomodoro-1.png" alt="Pomodoro-timer"/>
               </div>
               <div class="col-md-12 col-lg-6 padding-left project-unit">
                 <p>A clean design work-flow timer based off of the famous "Pomodoro Technique" with adjustable session and break lengths. Keeps track of number of completed sessions. Employs stop and pause throughout sessions with a simple click of the mouse.</p>
@@ -53,13 +53,13 @@ class Projects extends Component {
                 <a type="button" href="https://maeganw.github.io/Meta-Vidz-Search-Engine/" class="btn btn-primary sharp see" target="_blank"><i class="fa fa-eye fa-lg" aria-hidden="true"></i> See the App</a>
               </div>
               <div class="col-md-12 col-lg-6 padding-left project-unit">
-                <img class="project-icon" src="img-projects/metavidz-last.png" alt="Pomodoro-timer"/>
+                <img class="project-icon" src="../../img/img-projects/metavidz-last.png" alt="Pomodoro-timer"/>
               </div>
             </div>
             <div class="row">
               <h1 class="project-title">Content Slider</h1>
               <div class="col-md-12 col-lg-6 padding-bottom project-unit">
-                <img class="project-icon" src="img-projects/slider-4.png" alt="Pomodoro-timer"/>
+                <img class="project-icon" src="../../img/img-projects/slider-4.png" alt="Pomodoro-timer"/>
               </div>
               <div class="col-md-12 col-lg-6 padding-left project-unit">
                 <p>A content slider with an automatic slideshow that users can watch and enjoy. Completed as an assignment for Eduonix's Projects in JavaScript and jQuery Online Course.</p>
@@ -77,13 +77,13 @@ class Projects extends Component {
                 <a type="button" href="https://maeganw.github.io/JS-To-Do-List-App/TODO%20List%20MAJOR%20PROJECT/index.html" class="btn btn-primary sharp see" target="_blank"><i class="fa fa-eye fa-lg" aria-hidden="true"></i> See the App</a>
               </div>
               <div class="col-md-12 col-lg-6 padding-left project-unit">
-                <img class="project-icon" src="img-projects/todo-1.png" alt="Pomodoro-timer"/>
+                <img class="project-icon" src="../../img/img-projects/todo-1.png" alt="Pomodoro-timer"/>
               </div>
             </div>
             <div class="row">
               <h1 class="project-title">Patatap Clone</h1>
               <div class="col-md-12 col-lg-6 padding-bottom project-unit">
-                <img class="project-icon" src="img-projects/patatap-1.png" alt="Pomodoro-timer"/>
+                <img class="project-icon" src="../../img/img-projects/patatap-1.png" alt="Pomodoro-timer"/>
               </div>
               <div class="col-md-12 col-lg-6 padding-left project-unit">
                 <p>A light and fun patatap clone inspired by the original Patatap app. Functions, sounds, and animations are tied to keyboard keys to create a fun interactive experience. Completed as an assignment for Colt Steele's The Complete Web Developer Bootcamp Online Course.</p>
