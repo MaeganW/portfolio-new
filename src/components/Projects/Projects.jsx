@@ -11,7 +11,7 @@ class Projects extends Component {
             <div className="row">
               <h1 className="project-title">Gamma Photo App Website</h1>
               <div className="col-md-12 col-lg-6 padding-bottom project-unit">
-                <img className="project-icon" src="../../img-projects/gamma-1.png" alt="Gamma-Photo-App"/>
+                <img className="project-icon" id="gamma" src="#" alt="Gamma-Photo-App"/>
               </div>
               <div className="col-md-12 col-lg-6 padding-left project-unit">
                 <p>A responsive web design built for a fictional photo app utilizing the Bootstrap framework. Completed as an assignment for Eduonix's Projects in JavaScript and jQuery Online Course.</p>

@@ -225,20 +225,29 @@ i.fa.fa-github, i.fa.fa-eye {
   padding-bottom: 30px;
 }
 
-#projects-left {
-  background-image: url("../../img/Page-bluetree-bkgd-32.jpg");
+#projects-left,
+#projects-right {
   background-position: bottom center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+#projects-left {
+  background-image: url("../../img/Page-bluetree-bkgd-32.jpg");
   font-family: "Raleway";
   overflow: scroll;
 }
 
 #projects-right {
   background-image: url("../../img/bkgd-leaves-filtered-purple.jpg");
-  background-position: bottom center;
+}
+
+#gamma {
+  background-image: url("../../img-projects/gamma-1.png");
+  background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  overflow: hidden;
 }
 
 
