@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Nav from '../Nav';
 
 class Contact extends Component {
   render() {
@@ -6,14 +7,7 @@ class Contact extends Component {
       <div>
 
         <div className="float-left" id="contact-left">
-          <h1 className="page-heading">Contact</h1>
-          <nav>
-            <p>
-              <a href="about.html">About</a> \
-              <a href="projects.html">Projects</a> \
-              <a href="index.html">Home</a>
-            </p>
-          </nav>
+          <Nav pageHeading="Contact"/>
         </div>
 
         <div className="float-right" id="contact-right">

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Nav from '../Nav';
 
 class Projects extends Component {
   render() {
@@ -97,14 +98,7 @@ class Projects extends Component {
         </div>
 
         <div className="float-right" id="projects-right">
-          <h1 className="page-heading">Projects</h1>
-          <nav>
-            <p>
-              <a href="about.html">About</a> \
-              <a href="index.html">Home</a> \
-              <a href="contact.html">Contact</a>
-            </p>
-          </nav>
+          <Nav pageHeading="Projects"/>
         </div>
 
       </div>

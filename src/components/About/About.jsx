@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Nav from '../Nav';
 
 class About extends Component {
   render() {
@@ -7,14 +8,7 @@ class About extends Component {
         <img id="me" src="../../img/ProfilePic2%20(3).jpg" alt="profile picture"/>
         <section className="container">
           <div className="float-left" id="about-left">
-            <h1 className="page-heading">About</h1>
-            <nav>
-              <p>
-                <a href="index.html">Home</a> \
-                <a href="projects.html">Projects</a> \
-                <a href="contact.html">Contact</a>
-              </p>
-            </nav>
+            <Nav pageHeading="About"/>
           </div>
           <div className="float-right" id="about-right">
             <article className="text-container">
