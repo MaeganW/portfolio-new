@@ -146,32 +146,34 @@ nav#landing-nav {
 
 /* === ABOUT PAGE ONLY === */
 
-#about-left {
-  background-image: url("../../img/bkgd-trees-filtered-purple.jpg");
-  background-position: bottom center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
+.about {
+  &__left {
+    background-image: url("../../img/bkgd-trees-filtered-purple.jpg");
+    background-position: bottom center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 
-#about-right {
-  background-image: url("../../img/Page-bluetree-bkgd-32.jpg");
-  background-position: bottom center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  font-family: "Raleway";
-  overflow: scroll;
-}
+  &__right {
+    background-image: url("../../img/Page-bluetree-bkgd-32.jpg");
+    background-position: bottom center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Raleway";
+    overflow: scroll;
+  }
 
-img#me {
-  position: absolute;
-  top: 20%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-  width: 175px;
-  height: 175px;
-  z-index: 900;
-  border-radius: 50%;
+  &__photo {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 175px;
+    height: 175px;
+    z-index: 900;
+    border-radius: 50%;
+  }
 }
 
 
