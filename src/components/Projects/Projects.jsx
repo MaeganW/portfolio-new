@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Nav from '../Nav';
+import Nav from '../Navigation/Nav';
 
 import jsClock from '../../img/projects/JSClock.png';
 import cssVariables from '../../img/projects/CSSVariables.png';
@@ -137,9 +137,19 @@ const projectImgs = [
 
 class Projects extends Component {
   render() {
+    const projectRows = projectImgs.map((img, index) => (
+      <div className="projects_row">
+        {(index % 2 !== 0) ? (
+          <div className="projects_row_left">Left</div>
+        ) : (
+            <div className="projects_row_right">Right</div>
+          )}
+      </div>
+    ));
     return (
       <div>
-        <div className="float-left" id="projects-left">
+        {projectRows}
+        {/* <div className="float-left" id="projects-left">
 
           <div className="projects-container">
 
@@ -233,7 +243,7 @@ class Projects extends Component {
 
         <div className="float-right" id="projects-right">
           <Nav pageHeading="Projects" />
-        </div>
+        </div> */}
 
       </div>
     );
