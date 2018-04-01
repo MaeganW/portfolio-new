@@ -1,32 +1,8 @@
-// html,
-// body,
-// #root,
-// #routingRoot,
-// #landing-bkgd,
-// .container,
-// .float-left,
-// .float-right {
-//   height: 100%;
-//   width: 100%;
-//   padding: 0;
-//   margin: 0;
-// }
-
-// .float-left,
-// .float-right {
-//   position: relative;
-//   width: 50%;
-//   height: 100%;
-//   overflow: hidden;
-//   display: inline-block;
-// }
-
-.float-left {
-  float: left;
-}
-
-.float-right {
-  float: right;
+html, body, .app {
+  height: 100vh;
+  width: 100vw;
+  padding: 0;
+  margin: 0;
 }
 
 article.text-container {

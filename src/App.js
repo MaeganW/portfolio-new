@@ -13,7 +13,7 @@ import './App.css';
 
 const App = () => (
   <Router>
-    <div id="routingRoot">
+    <div className="app">
       <Route exact path="/" component={Home} />
       <Route path="/about" component={About} />
       <Route path="/projects" component={Projects} />

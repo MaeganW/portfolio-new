@@ -1,8 +1,8 @@
-.float-left {
-  float: left; }
-
-.float-right {
-  float: right; }
+html, body, .app {
+  height: 100vh;
+  width: 100vw;
+  padding: 0;
+  margin: 0; }
 
 article.text-container {
   padding: 65px 15%; }

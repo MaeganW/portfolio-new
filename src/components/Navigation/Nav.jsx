@@ -8,7 +8,7 @@ const App = (props) => {
       <h1 className="navigation__page-heading">{pageHeading}</h1>
       <nav>
         <p>
-          <Link className="navigation__link" to="home">Home</Link> \
+          <Link className="navigation__link" to="">Home</Link> \
           <Link className="navigation__link" to="about">About</Link> \
           <Link className="navigation__link" to="projects">Projects</Link> \
           <Link className="navigation__link" to="contact">Contact</Link>
