@@ -58,20 +58,29 @@ article.text-container {
   .projects_left {
     flex: 1;
     height: 100vh;
-    background-color: yellow; }
-  .projects_right {
-    flex: 1;
-    height: 100vh;
     background-image: url("./img/elements/Page-bluetree-bkgd-32.jpg");
     background-position: bottom center;
     background-size: cover;
     background-repeat: no-repeat;
     font-family: "Raleway";
-    overflow: scroll;
+    overflow: scroll; }
+  .projects_right {
+    flex: 1;
+    height: 100vh;
+    background-image: url("./img/elements/bkgd-leaves-filtered-purple.jpg");
+    background-position: bottom center;
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center; }
+    .projects_right_heading {
+      font-family: 'Allura', cursive;
+      color: #90E6FF;
+      text-shadow: 1px 1px #262626;
+      font-size: 8em;
+      font-weight: 700;
+      letter-spacing: 2.5px; }
 
 .contact {
   height: 100vh;
@@ -85,9 +94,15 @@ article.text-container {
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center; }
+    .contact_left_heading {
+      font-family: 'Allura', cursive;
+      color: #90E6FF;
+      text-shadow: 1px 1px #262626;
+      font-size: 8em;
+      font-weight: 700;
+      letter-spacing: 2.5px; }
   .contact_right {
     flex: 1;
     height: 100vh;
@@ -213,7 +228,7 @@ nav#landing-nav {
   letter-spacing: 2px;
   margin-bottom: 0px;
   position: absolute;
-  top: 94%; }
+  top: 91%; }
   .navigation__link {
     text-decoration: none;
     color: #90E6FF;
