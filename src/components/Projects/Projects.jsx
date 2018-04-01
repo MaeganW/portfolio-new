@@ -61,7 +61,7 @@ const projectImgs = [
     title: 'CSS Variables Manipulation',
     id: 'cssVariables',
     href: 'http://google.com',
-    content: 'Here is some content.'
+    content: "A mini app demonstrating native css variable manipulation using javascript. Created in response to Wes Bos' 30 Days of Javascript Challenge: Day 3"
   },
   {
     src: drumKit,
@@ -74,8 +74,8 @@ const projectImgs = [
     src: flexPanel,
     title: 'Flex Panel Display',
     id: 'flexPanel',
-    href: 'http://google.com',
-    content: 'Here is some content.'
+    href: 'https://github.com/MaeganW/Flex-Panel-Gallery',
+    content: "An exercise in responsive panels with css flexbox. Created in response to Wes Bos' 30 Days of Javascript Challenge: Day 5"
   },
   {
     src: paintApp,
