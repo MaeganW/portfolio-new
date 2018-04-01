@@ -9,14 +9,16 @@ import About from './components/About/About';
 import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact';
 
+import './App.css';
+
 const App = () => (
   <Router>
-  <div id="routingRoot">
-    <Route exact path="/" component={Home}/>
-    <Route path="/about" component={About}/>
-    <Route path="/projects" component={Projects}/>
-    <Route path="/contact" component={Contact}/>
-  </div>
+    <div id="routingRoot">
+      <Route exact path="/" component={Home} />
+      <Route path="/about" component={About} />
+      <Route path="/projects" component={Projects} />
+      <Route path="/contact" component={Contact} />
+    </div>
   </Router>
 )
 

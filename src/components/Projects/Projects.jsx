@@ -147,8 +147,16 @@ class Projects extends Component {
       </div>
     ));
     return (
-      <div>
-        {projectRows}
+      <div className="projects">
+        <div className="projects_left">
+          {projectRows}
+        </div>
+        <div className="projects_right">
+          <h1 className="projects_right_heading">
+            Projects
+          </h1>
+          <Nav />
+        </div>
         {/* <div className="float-left" id="projects-left">
 
           <div className="projects-container">

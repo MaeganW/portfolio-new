@@ -1,0 +1,107 @@
+.projects {
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+
+  &_left {
+    flex: 1;
+    height: 100vh;
+    background-color: yellow;
+  }
+
+  &_right {
+    flex: 1;
+    height: 100vh;
+    background-image: url("./img/elements/Page-bluetree-bkgd-32.jpg");
+    background-position: bottom center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Raleway";
+    overflow: scroll;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+
+// /* === PROJECTS PAGE ONLY === */
+
+// .project-icon {
+//   height: 150px;
+//   width: 300px;
+//   box-shadow: 2px 2px #262626;
+// }
+
+// .projects-container {
+//   padding: 30px 7%;
+// }
+
+// .project-title {
+//   padding-bottom: 30px;
+//   text-transform: uppercase;
+//   text-align: center;
+// }
+
+// .row {
+//   padding-bottom: 30px;
+// }
+
+// .btn.sharp {
+//   border-radius: 0;
+//   border: none;
+//   padding: 7px 14px;
+//   font-size: 1.1em;
+//   text-transform: uppercase;
+//   margin-top: 15px;
+// }
+
+// .btn.see {
+//   display: inline-block;
+//   width: 153px;
+//   margin-left: 2px;
+// }
+
+// i.fa.fa-github, i.fa.fa-eye {
+//   padding-right: 5px;
+// }
+
+// .skills-text {
+//   padding-bottom: 20px;
+// }
+
+// .padding-left {
+//   padding-left: 25px;
+// }
+
+// .padding-bottom {
+//   padding-bottom: 30px;
+// }
+
+// #projects-left,
+// #projects-right {
+//   background-position: bottom center;
+//   background-size: cover;
+//   background-repeat: no-repeat;
+// }
+
+// #projects-left {
+//   background-image: url("./img/elements/Page-bluetree-bkgd-32.jpg");
+//   font-family: "Raleway";
+//   overflow: scroll;
+// }
+
+// #projects-right {
+//   background-image: url("./img/elements/bkgd-leaves-filtered-purple.jpg");
+// }
+
+// #gamma {
+//   // background-image: url("../../img-projects/gamma-1.png");
+//   background-position: center center;
+//   background-size: cover;
+//   background-repeat: no-repeat;
+//   overflow: hidden;
+// }

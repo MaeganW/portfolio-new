@@ -1,0 +1,39 @@
+.navigation {
+  text-align: center;
+  font-size: 1.5em;
+  font-family: "Raleway";
+  color: #90E6FF;
+  letter-spacing: 2px;
+  margin-bottom: 0px;
+  position: absolute;
+  top: 94%;
+
+  // &__page-heading {
+  //   font-family: 'Allura', cursive;
+  //   color: #90E6FF;
+  //   text-shadow: 1px 1px #262626;
+  //   font-size: 8em;
+  //   font-weight: 700;
+  //   letter-spacing: 2.5px;
+  //   position: absolute;
+  //   top: 40%;
+  //   left: 50%;
+  //   margin-right: -50%;
+  //   transform: translate(-50%, -50%);
+  // }
+
+  &__link {
+    text-decoration: none;
+    color: #90E6FF;
+    text-shadow: 1px 1px #262626;
+    text-transform: uppercase;
+
+    &:hover {
+      color: #fff;
+      padding-bottom: 4px;
+      border-bottom: 4px solid #fff;
+      text-decoration: none;
+      text-shadow: 1px 1px #262626;
+    }
+  }
+}

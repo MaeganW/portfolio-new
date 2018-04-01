@@ -1,0 +1,47 @@
+/* === HOME PAGE ONLY === */
+header {
+  font-family: "Raleway";
+  color: #90E6FF;
+  text-transform: uppercase;
+  text-align: center;
+  text-shadow: 2px 2px #262626;
+  position: relative;
+  top: 35%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%); }
+  header h1 {
+    font-family: 'Allura', cursive;
+    text-transform: none;
+    font-size: 8em;
+    font-weight: 700;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    letter-spacing: 2.5px; }
+  header p {
+    margin-top: 0px;
+    font-size: 1.5em;
+    letter-spacing: 2px; }
+
+div#landing-bkgd,
+img#landing-icon {
+  background-position: bottom center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden; }
+
+div#landing-bkgd {
+  background-image: url("./img/elements/bkgd-cherry-filtered-purple.jpg"); }
+
+img#landing-icon {
+  background-image: url("./img/elements/medium-bluetree-icon_lit_crosshatch.png");
+  height: 700px;
+  width: 475px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%); }
+
+nav#landing-nav {
+  bottom: -5%; }

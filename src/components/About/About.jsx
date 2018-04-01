@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import Nav from '../Nav';
+import Nav from '../Navigation/Nav';
 
 class About extends Component {
   render() {
     return (
       <div>
-        <img id="me" src="../../img/ProfilePic2%20(3).jpg" alt="profile picture"/>
+        <img id="me" src="../../img/ProfilePic2%20(3).jpg" alt="profile picture" />
         <section className="container">
           <div className="float-left" id="about-left">
-            <Nav pageHeading="About"/>
+            <Nav pageHeading="About" />
           </div>
           <div className="float-right" id="about-right">
             <article className="text-container">

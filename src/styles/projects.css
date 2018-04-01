@@ -1,0 +1,21 @@
+.projects {
+  height: 100vh;
+  width: 100vw;
+  display: flex; }
+  .projects_left {
+    flex: 1;
+    height: 100vh;
+    background-color: yellow; }
+  .projects_right {
+    flex: 1;
+    height: 100vh;
+    background-image: url("./img/elements/Page-bluetree-bkgd-32.jpg");
+    background-position: bottom center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Raleway";
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; }

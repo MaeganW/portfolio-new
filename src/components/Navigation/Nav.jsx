@@ -5,7 +5,7 @@ const App = (props) => {
   const { pageHeading } = props;
   return (
     <div className="navigation">
-      <h1 className="navigation__page-heading">{ pageHeading }</h1>
+      <h1 className="navigation__page-heading">{pageHeading}</h1>
       <nav>
         <p>
           <Link className="navigation__link" to="home">Home</Link> \
