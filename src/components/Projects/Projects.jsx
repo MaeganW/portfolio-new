@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import Nav from '../Navigation/Nav';
 
 import jsClock from '../../img/projects/JSClock.png';
@@ -9,7 +10,6 @@ import paintApp from '../../img/projects/Paint App.png';
 import scroll from '../../img/projects/Scroll.png';
 import shiftSelect from '../../img/projects/Shift Select Checkboxes.png';
 import typeAhead from '../../img/projects/Type Ahead.png';
-
 import colorGame from '../../img/projects/ColorGame.png';
 import gamma from '../../img/projects/Gamma.png';
 import metaVidz from '../../img/projects/MetaVidz.png';
@@ -139,10 +139,27 @@ class Projects extends Component {
   render() {
     const projectRows = projectImgs.map((img, index) => (
       <div className="projects_row">
-        {(index % 2 !== 0) ? (
-          <div className="projects_row_left">Left</div>
+        <h3>{img.title}</h3>
+        {(index % 2 === 0) ? (
+          <div className="projects_row_left">
+            <div className="projects_row_proj">
+              <img className="projects_row_proj_img" src={img.src} />
+            </div>
+            <div className="projects_row_info">
+              <p>{img.content}</p>
+              <button><Link to={img.href}>View Code</Link></button>
+            </div>
+          </div>
         ) : (
-            <div className="projects_row_right">Right</div>
+            <div className="projects_row_right">
+              <div className="projects_row_info">
+                <p>{img.content}</p>
+                <button><Link to={img.href}>View Code</Link></button>
+              </div>
+              <div className="projects_row_proj">
+                <img className="projects_row_proj_img" src={img.src} />
+              </div>
+            </div>
           )}
       </div>
     ));

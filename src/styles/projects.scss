@@ -8,6 +8,7 @@
 
   &_left {
     @include contentPane;
+    padding-bottom: 30px;
   }
 
   &_right {
@@ -17,30 +18,78 @@
       @include splitPaneHeading;
     }
   }
+
+  &_row {
+    padding: 0 5px;
+
+    h3 {
+      text-align: center;
+      text-transform: uppercase;
+      padding: 2px 0;
+    }
+
+    &_left, &_right {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    &_proj {
+      flex: 1;
+      padding: 0 10px;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &_img {
+        height: 200px;
+        box-shadow: var(--shadow-dark);
+      }
+    }
+
+    &_info {
+      flex: 1;
+      padding: 0 10px;
+      text-align: center;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+
+      button {
+        box-shadow: var(--shadow-light);
+        margin-left: auto;
+        margin-right: auto;
+        background: var(--blue);
+        color: #fff;
+        border-color: var(--blue);
+        font-size: 14px;
+        min-height: 27px;
+        text-decoration: none;
+        outline: none;
+        border-width: 2px;
+        border-radius: 0;
+        font-weight: 400;
+        padding: 8px 18px;
+        text-transform: uppercase;
+
+        a {
+          text-decoration: none;
+          color: #fff;
+        }
+
+        &:hover, &:focus {
+          background-color: darken(#337ab7, 5%);
+          border-color: darken(#337ab7, 5%);
+          // color: var(--grey);
+          text-decoration: none;
+        }
+      }
+    }
+  }
 }
 
-
-// /* === PROJECTS PAGE ONLY === */
-
-// .project-icon {
-//   height: 150px;
-//   width: 300px;
-//   box-shadow: 2px 2px #262626;
-// }
-
-// .projects-container {
-//   padding: 30px 7%;
-// }
-
-// .project-title {
-//   padding-bottom: 30px;
-//   text-transform: uppercase;
-//   text-align: center;
-// }
-
-// .row {
-//   padding-bottom: 30px;
-// }
 
 // .btn.sharp {
 //   border-radius: 0;
@@ -59,41 +108,4 @@
 
 // i.fa.fa-github, i.fa.fa-eye {
 //   padding-right: 5px;
-// }
-
-// .skills-text {
-//   padding-bottom: 20px;
-// }
-
-// .padding-left {
-//   padding-left: 25px;
-// }
-
-// .padding-bottom {
-//   padding-bottom: 30px;
-// }
-
-// #projects-left,
-// #projects-right {
-//   background-position: bottom center;
-//   background-size: cover;
-//   background-repeat: no-repeat;
-// }
-
-// #projects-left {
-//   background-image: url("./img/elements/Page-bluetree-bkgd-32.jpg");
-//   font-family: "Raleway";
-//   overflow: scroll;
-// }
-
-// #projects-right {
-//   background-image: url("./img/elements/bkgd-leaves-filtered-purple.jpg");
-// }
-
-// #gamma {
-//   // background-image: url("../../img-projects/gamma-1.png");
-//   background-position: center center;
-//   background-size: cover;
-//   background-repeat: no-repeat;
-//   overflow: hidden;
 // }
