@@ -13,7 +13,7 @@ class Contact extends Component {
           <article className="text-container">
             <h2 className="contact-headers">Let's Stay in Touch!</h2>
             <div id="form-container">
-              <form action="https://formspree.io/mdw.webcreations@gmail.com" method="POST">
+              <form action="https://formspree.io/maeganwomble@gmail.com" method="POST">
                 <div className="form-group">
                   <label for="name">Name:</label>
                   <input type="name" name="name" className="form-control" id="name" placeholder="Jane Doe" />
