@@ -1,8 +1,9 @@
 {
-  "name": "react-sass-setup",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "express": "^4.16.3",
     "node-sass-chokidar": "^1.1.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
@@ -12,9 +13,21 @@
   "scripts": {
     "build-css": "node-sass-chokidar src/ -o src/",
     "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
-    "start": "react-scripts start",
+    "start": "node server.js",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "description": "Original design. Created using React, React-Router, and Sass.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaeganW/portfolio-new.git"
+  },
+  "author": "Maegan Womble",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaeganW/portfolio-new/issues"
+  },
+  "homepage": "https://github.com/MaeganW/portfolio-new#readme"
 }
