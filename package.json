@@ -5,6 +5,7 @@
   "dependencies": {
     "eslint": "^4.19.1",
     "express": "^4.16.3",
+    "gh-pages": "^1.1.0",
     "node-sass-chokidar": "^1.1.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
@@ -17,6 +18,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "description": "Original design. Created using React, React-Router, and Sass.",
@@ -30,5 +33,5 @@
   "bugs": {
     "url": "https://github.com/MaeganW/portfolio-new/issues"
   },
-  "homepage": "https://github.com/MaeganW/portfolio-new#readme"
+  "homepage": "https://github.com/MaeganW/portfolio-new/"
 }
