@@ -1,0 +1,32 @@
+@mixin splitPaneHeading {
+  font-family: 'Allura', cursive;
+  color: #90E6FF;
+  text-shadow: 1px 1px #262626;
+  font-size: 8em;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+}
+
+@mixin contentPane {
+  flex: 1;
+  height: 100vh;
+  background-image: url("./img/elements/Page-bluetree-bkgd-32.jpg");
+  background-position: bottom center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Raleway";
+  overflow: scroll;
+}
+
+@mixin navigationPane($image) {
+  flex: 1;
+  height: 100vh;
+  background-image: url($image);
+  background-position: bottom center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

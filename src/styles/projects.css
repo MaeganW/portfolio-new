@@ -1,0 +1,80 @@
+.projects {
+  height: 100vh;
+  width: 100vw;
+  display: flex; }
+  .projects_left {
+    flex: 1;
+    height: 100vh;
+    background-image: url("./img/elements/Page-bluetree-bkgd-32.jpg");
+    background-position: bottom center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Raleway";
+    overflow: scroll;
+    padding-bottom: 30px; }
+  .projects_right {
+    flex: 1;
+    height: 100vh;
+    background-image: url("./img/elements/bkgd-leaves-filtered-purple.jpg");
+    background-position: bottom center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .projects_right_heading {
+      font-family: 'Allura', cursive;
+      color: #90E6FF;
+      text-shadow: 1px 1px #262626;
+      font-size: 8em;
+      font-weight: 700;
+      letter-spacing: 2.5px; }
+  .projects_row {
+    padding: 0 5px; }
+    .projects_row h3 {
+      text-align: center;
+      text-transform: uppercase;
+      padding: 2px 0; }
+    .projects_row_left, .projects_row_right {
+      display: flex;
+      justify-content: space-around; }
+    .projects_row_proj {
+      flex: 1;
+      padding: 0 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .projects_row_proj_img {
+        height: 200px;
+        box-shadow: var(--shadow-dark); }
+    .projects_row_info {
+      flex: 1;
+      padding: 0 10px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center; }
+      .projects_row_info button {
+        box-shadow: var(--shadow-light);
+        margin-left: auto;
+        margin-right: auto;
+        background: var(--blue);
+        color: #fff;
+        border-color: var(--blue);
+        font-size: 14px;
+        min-height: 27px;
+        text-decoration: none;
+        outline: none;
+        border-width: 2px;
+        border-radius: 0;
+        font-weight: 400;
+        padding: 8px 18px;
+        text-transform: uppercase; }
+        .projects_row_info button a {
+          text-decoration: none;
+          color: #fff; }
+        .projects_row_info button:hover, .projects_row_info button:focus {
+          background-color: #2d6da3;
+          border-color: #2d6da3;
+          text-decoration: none; }

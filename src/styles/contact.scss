@@ -1,0 +1,60 @@
+@import './_mixins.scss';
+
+.contact {
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+
+  &_left {
+    @include navigationPane("./img/elements/bkgd-forest-filtered-purple-59.jpg");
+
+    &_heading {
+      @include splitPaneHeading;
+    }
+  }
+
+  &_right {
+    @include contentPane;
+  }
+}
+
+.contact-headers {
+  padding-bottom: 15px;
+}
+
+.contact-icon {
+  text-decoration: none;
+  color: #262626;
+  padding: 0 25px 0 0;
+}
+
+.form-group {
+  font-family: "Raleway";
+  font-size: 1.3em;
+  padding: 5px 25px 0 25px;
+  color: #90E6FF;
+  text-shadow: 2px 2px #262626;
+}
+
+#form-container {
+  background-color: gray;
+  border-radius: 5px;
+  padding-bottom: 50px;
+  border: 1px solid #262626;
+}
+
+#follow-me {
+  padding-top: 30px;
+}
+
+#btn-submit {
+  float: right;
+  margin-right: 25px;
+  font-family: "Raleway";
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #262626;
+  background-color: #90E6FF;
+  border: 1px solid #262626;
+}

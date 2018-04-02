@@ -1,0 +1,32 @@
+@import './_mixins.scss';
+
+.about {
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+
+  &_left {
+    @include navigationPane("./img/elements/bkgd-trees-filtered-purple.jpg");
+
+    &_heading {
+      @include splitPaneHeading;
+    }
+  }
+
+  &_right {
+    @include contentPane;
+  }
+
+  &__photo {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 175px;
+    height: 175px;
+    z-index: 900;
+    border-radius: 50%;
+  }
+}
