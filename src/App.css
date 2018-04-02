@@ -76,7 +76,8 @@ article.text-container {
     background-size: cover;
     background-repeat: no-repeat;
     font-family: "Raleway";
-    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: auto;
     padding-bottom: 30px; }
   .projects_right {
     flex: 1;
@@ -174,7 +175,8 @@ article.text-container {
     background-size: cover;
     background-repeat: no-repeat;
     font-family: "Raleway";
-    overflow: scroll; }
+    overflow-x: hidden;
+    overflow-y: auto; }
 
 .contact-headers {
   padding-bottom: 15px; }
@@ -239,7 +241,8 @@ article.text-container {
     background-size: cover;
     background-repeat: no-repeat;
     font-family: "Raleway";
-    overflow: scroll; }
+    overflow-x: hidden;
+    overflow-y: auto; }
   .about__photo {
     position: absolute;
     top: 20%;

@@ -27,7 +27,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     font-family: "Raleway";
-    overflow: scroll; }
+    overflow-x: hidden;
+    overflow-y: auto; }
 
 .contact-headers {
   padding-bottom: 15px; }
