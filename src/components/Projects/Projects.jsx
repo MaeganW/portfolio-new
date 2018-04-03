@@ -18,9 +18,17 @@ import pomodoro from '../../img/projects/Pomodoro.png';
 import todo from '../../img/projects/Todo.png';
 import trillo from '../../img/projects/Trillo.png';
 import patatap from '../../img/projects/Patatap.png';
+import oneCall from '../../img/projects/1CallInventory.png';
 
 
 const projectImgs = [
+  {
+    src: oneCall,
+    title: '1Call Now Facilities App',
+    id: 'oneCall',
+    url: null,
+    content: '1Call Facilites application for OU Medical - Inventory requests were made using a written system. I designed and am currently developing a UI and API to interact with the ServiceNow backend system for a more automated approach. UI allows requests to be made and ordered items to be added from a split pane view that allows the manager to view and make changes to requests as well as change the state.'
+  },
   {
     src: trillo,
     title: 'Trillo',
@@ -147,14 +155,14 @@ class Projects extends Component {
             </div>
             <div className="projects_row_info">
               <p>{img.content}</p>
-              <button><a href={img.url}>View Code</a></button>
+              <button hidden={!(img.url)}><a href={img.url}>View Code</a></button>
             </div>
           </div>
         ) : (
             <div className="projects_row_right">
               <div className="projects_row_info">
                 <p>{img.content}</p>
-                <button><a href={img.url}>View Code</a></button>
+                <button hidden={!(img.url)}><a href={img.url}>View Code</a></button>
               </div>
               <div className="projects_row_proj">
                 <img className="projects_row_proj_img" src={img.src} />
