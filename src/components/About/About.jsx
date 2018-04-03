@@ -14,7 +14,7 @@ class About extends Component {
         <div className="about_right">
           <article className="text-container">
             <h2>Who am I?</h2>
-            <p>I am a front-end web developer with experience primarily in Javascript but with an interest in Node.js and the back-end of applications.</p>
+            <p>I am a front-end developer with experience primarily in website and web application development. My modus operandi is to deliver efficient solutions with good design to real-world issues so your users don't have to.</p>
             <h2>My Story</h2>
             <p>In a previous career, I was an English instructor in a Japanese English school in Osaka. When I started, the students didn't have a grasp of the fundamentals, but after identifying the problem, I developed curriculum and created projects to help my students master English. I use this same development process in my work today.</p>
             <p>Since childhood I have been programming and creating animations as a hobby and have recently rekindled that passion into a career.</p>
