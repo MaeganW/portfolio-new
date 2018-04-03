@@ -19,6 +19,7 @@ import todo from '../../img/projects/Todo.png';
 import trillo from '../../img/projects/Trillo.png';
 import patatap from '../../img/projects/Patatap.png';
 import oneCall from '../../img/projects/1CallInventory.png';
+import dataStream from '../../img/projects/DataStreamApiDocs.png';
 
 
 const projectImgs = [
@@ -28,6 +29,13 @@ const projectImgs = [
     id: 'oneCall',
     url: null,
     content: '1Call Facilites application for OU Medical - Inventory requests were made using a written system. I designed and am currently developing a UI and API to interact with the ServiceNow backend system for a more automated approach. UI allows requests to be made and ordered items to be added from a split pane view that allows the manager to view and make changes to requests as well as change the state.'
+  },
+  {
+    src: dataStream,
+    title: 'DataStream Api Docs',
+    id: 'dataStream',
+    url: null,
+    content: 'DataStream API Docs site for Oseberg - I designed and developed the UI for a docs website capable of fetching dynamic data informing users of the most recent changes in API schemas as well as the ability to query movement within those schemas based on a requested time frame.'
   },
   {
     src: trillo,
