@@ -98,6 +98,9 @@ article.text-container {
       letter-spacing: 2.5px; }
   .projects_row {
     padding: 0 5px; }
+    .projects_row_tablet {
+      text-align: center;
+      padding-bottom: 10px; }
     .projects_row h3 {
       text-align: center;
       text-transform: uppercase;
@@ -114,6 +117,9 @@ article.text-container {
       .projects_row_proj_img {
         height: 200px;
         box-shadow: var(--shadow-dark); }
+        .projects_row_proj_img_tablet {
+          height: 250px;
+          margin: 5px 0 15px 0; }
     .projects_row_info {
       flex: 1;
       padding: 0 10px;

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import { Responsive } from 'semantic-ui-react'
 import Nav from '../Navigation/Nav';
 
 import jsClock from '../../img/projects/JSClock.png';
@@ -153,7 +154,7 @@ const projectImgs = [
 
 class Projects extends Component {
   render() {
-    const projectRows = projectImgs.map((img, index) => (
+    const DesktopProjectRows = projectImgs.map((img, index) => (
       <div className="projects_row">
         <h3>{img.title}</h3>
         {(index % 2 === 0) ? (
@@ -179,10 +180,27 @@ class Projects extends Component {
           )}
       </div>
     ));
+
+    const tabletProjectRows = projectImgs.map((img) => (
+      <div className="projects_row projects_row_tablet">
+        <h3>{img.title}</h3>
+        <img className="projects_row_proj_img projects_row_proj_img_tablet" src={img.src} />
+        <div className="projects_row_info">
+          <p>{img.content}</p>
+          <button hidden={!(img.url)}><a href={img.url}>View Code</a></button>
+        </div>
+      </div>
+    ));
+
     return (
       <div className="projects">
         <div className="projects_left">
-          {projectRows}
+          <Responsive minWidth={1100}>
+            {DesktopProjectRows}
+          </Responsive>
+          <Responsive maxWidth={1100}>
+            {tabletProjectRows}
+          </Responsive>
         </div>
         <div className="projects_right">
           <h1 className="projects_right_heading">
